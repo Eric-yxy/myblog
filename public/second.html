@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实例3_通信页面2</title>
+<script type="text/javascript">
+	function EventHandle(e){
+		alert('s');
+		var storage = window.localStorage;
+		var result = "";
+		result+="<br />姓名:"+storage.name;
+		result+="<br />key:"+e.key;
+		result+="<br />oldValue:"+e.oldValue;
+		result+="<br />newValue:"+e.newValue;
+		result+="<br />url:"+e.url;			
+		console.log(result);
+		/* 在指定的地方显示获取的存储内容 */
+		document.getElementById("formdata").innerHTML = result;	
+	}
+	// 添加监听事件storage
+	window.addEventListener("storage",EventHandle,true);
+	
+</script>
+</head>
+<body>
+<div id="formdata"></div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+doctype html
+html
+   head
+      title='首页'
+      link(href='../css/index.css' rel='stylesheet')
+      link(href='../css/index-header.css' rel='stylesheet')
+      link(href='../css/login-layer.css' rel='stylesheet')
+      link(href='../css/user-detail.css' rel='stylesheet')
+      include ../public/public_js.html
+   body
+      include ../public/login-layer.html
+      include ../public/index-header.html
+      section(id='wrap')
+         include ../public/index-content.html
+
+      script(src="../js/init_login.js")
+      script(type="text/babel" src="../js/init_index.js")
+      script(type="text/babel" src="../js/init_index_header.js")

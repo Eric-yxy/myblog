@@ -1,0 +1,109 @@
+header{
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    min-width : 920px;
+    height : 50px;
+    background : rgba(255,255,255,0.94);
+    z-index : 100;
+}
+header ul{
+    list-style : none;
+}
+header a{
+    text-decoration : none;
+}
+header li{
+    float : left;
+}
+#header-wrap{
+    width : 80%;
+    height : 100%;
+    margin : 0 auto;
+}
+.header-ul-wrap , .login-wrap{
+    float : right;
+    height : 100%;
+}
+.logo-wrap{
+    height : 100%;
+    width : 79px;
+    float : left;
+}
+.logo-sapn{
+    width :100%;
+    height : 100%;
+    display : inline-block;
+    background : url(../img/logo.png)no-repeat center;
+    background-size : contain;
+}
+.header-ul-wrap{
+    margin-left : 40px;
+}
+.header-ul{
+    height : 100%;
+    width : 290px;
+}
+.header-li{
+    width : 28%;
+    height : 30px;
+    margin-top : 10px;
+    margin-left : 4%;
+    line-height : 30px;
+}
+.header-li .header-png{
+    display : inline-block;
+    width : 40%;
+    height : 100%;
+}
+.header-1{
+    background : url(../img/index-png.png)no-repeat center;
+}
+.header-2{
+    background : url(../img/video-png.png)no-repeat center;
+}
+.header-3{
+    background : url(../img/find-png.png)no-repeat center;
+}
+.header-png-inner{
+    width : 82%;
+    height : 82%;
+    background-size : contain;
+}
+.header-text{
+    width : 50%;
+    height : 30px;
+    color : #333;
+    line-height : 30px;
+    display : inline-block;
+    vertical-align : top;
+}
+.header-text p{
+    width : 100%;
+    height : 100%;
+}
+.login-wrap{
+    width : 110px;
+}
+.login-wrap .login-inner{
+    float : left;
+    display : block;
+    color : #333;
+    width : 47%;
+    height : 30px;
+    margin : 10px 1%;
+    line-height : 30px;
+    text-align : center;
+    cursor :pointer;
+}
+.vertical-line{
+    margin : 16px 0;
+    height : 20px;
+    border-left : 1px solid #dbdbdb;
+    float : left;
+    display : inline-block;
+}
+.login-wrap span{
+    vertical-align : middle;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src = './js/jquery.min.js'></script>
+    <script src="./js/jquery.cookie.js"></script>
+    <script src="./js/dataComm.js"></script>
+</head>
+<body>
+<!--<iframe id="myIframe" name="iframe" width="0" height="0" frameborder="0"></iframe>-->
+<!--<img src="" alt="" id="preview">-->
+<!--<form target="iframe" action="/express/?do=express.user.uploadImg" enctype="multipart/form-data" method="post">-->
+    <!--<input type="file" name="upload"  multiple="multiple" >-->
+    <!--<input type="submit" value="upload" />-->
+<!--</form>-->
+
+
+</body>
+<script>
+    var callback = function(data){
+        console.log(data);
+    }
+//    $('#myIframe').bind('load' , function(){
+//        var data = $(window.frames['iframe'].document.body).text();
+//        $('#preview').attr('src' , data);
+//    })
+
+    dataComm.login('阿斯顿' , 134 , callback); //username , password , callback
+//    dataComm.register('阿斯顿' , 1234 , function(){});
+//    dataComm.isLogin('yang' , callback); //username
+//    dataComm.loginOut('yang' , callback); //username
+//    dataComm.addOneBlog('yang' , '2012-1-2' , 'personal' , 'this is blog content' , '' , callback); //username , data , type , blog content , blog pic , callback
+//    dataComm.getBlogList('likes' , 10 , 1 , callback); // type , blogNumber , rank callback
+//    dataComm.addComment('yang' , '2014-3-5' , 'this is comment example' ,  callback) //author , content , callback
+//    dataComm.addLikes('yang' , '58762fab1af4d2408c1ffc4c' , callback);//username , blogId , callback
+//    dataComm.addAttention('eric' , 'yang' , callback); //user , attentionUserName , callback
+</script>
+</html>

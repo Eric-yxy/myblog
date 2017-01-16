@@ -1,0 +1,65 @@
+#user-detail-wrap{
+    position : relative;
+    height : 170px;
+    padding : 0!important;
+    width : 100%!important;
+}
+#user-detail-wrap a{
+    color : black;
+}
+#user-detail-wrap .head-portrait-wrap{
+    position : absolute;
+    top : 25%;
+    left : 50%;
+    margin-left : -25px;
+}
+#user-detail-wrap .head-portrait-wrap img{
+    width : 50px!important;
+    height : 50px;
+}
+.user-detail-bg{
+    width : 100%;
+    height : 45%;
+}
+.user-detail-bg img{
+    width : 100%;
+    height : 100%;
+    border-top-left-radius : 4px;
+    border-top-right-radius : 4px;
+}
+.username-wrap{
+    margin : 20px auto 10px;
+    width : 80%;
+    text-align : center;
+}
+.username-wrap{
+    font-size : 13px;
+}
+.user-detail-content{
+    margin : 0 auto;
+    width : 85%;
+    height : 50px;
+}
+.user-detail-ul{
+    width : 100%;
+    height : 100%;
+}
+.user-detail-li{
+    width : 32%;
+    height : 40px;
+    text-align : center;
+    border-right : 1px solid #dbdbdb;
+    color : black;
+}
+.user-detail-li:last-child{
+    border : none;
+}
+.user-detail-li p{
+    font-weight : 700;
+}
+.user-detail-li span{
+    color : #999;
+    font-size : 12px;
+}
+
+

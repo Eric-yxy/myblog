@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实例3_通信页面1</title>
+<script type="text/javascript">
+	function SaveStorage(frm){
+		// 保存数据到localStorage
+		window.localStorage.name=document.getElementById("name").value;		
+	}
+	window.addEventListener('storage' , function(){
+		alert('change');
+	} , true);
+</script>
+</head>
+<body>
+	姓名<input type="text" name="name" id="name" />
+	<input type="button" value="保存" onclick="SaveStorage(this.form)" />
+</body>
+</html>
